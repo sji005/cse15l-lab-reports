@@ -1,5 +1,8 @@
 # For the command `cd`
 ## Num1
+Working directory was `root`
+Wasn't able to show it in the screenshot, but cd with no arguments will change the working directory to `root`
+The output was not an error, working as intended
 ![Image](screenshot1.png)
 ## Num2
 ![Image](screenshot2.png)
