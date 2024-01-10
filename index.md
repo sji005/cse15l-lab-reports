@@ -20,4 +20,4 @@ public class HelloWorld {
 2. Two
 3. Three
 ----
-```for(int i = 0; i<index; i++)`
+`for(int i = 0; i<index; i++)`
