@@ -1,7 +1,7 @@
 # For the command `cd`
 ## Num1
 * Working directory was `~/` (home)
-* Wasn't able to show it in the screenshot, but cd with no arguments will change the working directory to `root`
+* Wasn't able to show it in the screenshot, but cd with no arguments will change the working directory to `~/` (home)
 * The output was not an error, working as intended
 ---
 ![Image](screenshot1.png)
