@@ -5,10 +5,12 @@
 * the main method takes in an ```String[] args``` during compile, and ```handleRequests``` 
 takes in the current ```URLhandler```. 
 * ```args``` from the main function never change, and the ```url``` changes based on user
-* the field I have for this class is ```ArrayList<String> printable``` that stores all the messages
-inputs
-* 
+* the field I have for this class is ```ArrayList<String> printable``` that stores all the messages, printable adds the current chat message
+inputs 
 ![Image](ss1.png)
+* like for the first screen shot, the main methods continues to run
+* main takes in ```String[] args``` during compile and ```handleRequests``` fire now when I make a request with my url
+* the field ```ArrayList<String> printable``` changes again now that I send a second request, it stores it as another string object
 ![Image](ss2.png)
 ![Image](ss3.png)
 ## Part 2
