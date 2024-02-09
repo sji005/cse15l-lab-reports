@@ -15,6 +15,7 @@ inputs
 * ``C:\Users\jisiy\.ssh\id_rsa`` is the abosolute path of my private key to log into the system
 * ``/home/linux/ieng6/oce/7g/siji/.ssh/authorized_keys`` is the absolute path of my public key to log into the system on the ieng6 side
 * There was a problem with ssh and rsa key interaction when login into the ucsd computer, not able to complete, was told that it will be addressed later.
+
 ![Image](ss4.png)
 ![Image](ss5.png)
 ![image](https://github.com/sji005/cse15l-lab-reports/assets/148498146/486ccc35-6e9f-4263-a923-931d13b7e095)
