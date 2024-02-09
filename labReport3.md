@@ -143,3 +143,31 @@ dies
         in the production of immune models of colitis. MA
 [user@sahara ~/docsearch/technical/biomed]$ ^C
 ```
+
+```
+less -X 1471-2261-1-6.txt  
+      
+        Background
+        Nonadherence to drug therapy can undermine the
+        attainment of therapeutic goals and contribute to
+ the
+        occurrence of medication side effects. Numerous a
+dverse
+        clinical outcomes have been linked to nonadherenc
+e
+        including loss of blood pressure control [ 1 2 ] 
+, acute
+        cardiac events [ 3 ] , renal transplant rejection
+ [ 4 ] ,
+        seizures [ 5 ] , and elevated Human Immunodeficie
+ncy Virus
+        RNA levels [ 6 ] . Efforts to enhance medicinal a
+dherence
+        have met with varying levels of success [ 7 8 9 ]
+ .
+        The detection of nonadherence to recommended trea
+tment
+        can be problematic. In the clinical setting askin
+[user@sahara ~/docsearch/technical/biomed]$
+```
+
