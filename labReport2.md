@@ -1,11 +1,12 @@
 
 # Lab Report 2
 ## Part 1
-* The main method for the ChatServer class and handleRequests for the URL handler
-* the main method takes in an String[] args during compile, and handleRequests 
+* The main method for the ```ChatServer``` class and ```handleRequests``` for the URL handler
+* the main method takes in an ```String[] args``` during compile, and ```handleRequests``` 
 takes in the current URL handler. 
 * args from the main function never change, and the url changes based on user 
 inputs
+* 
 ![Image](ss1.png)
 ![Image](ss2.png)
 ![Image](ss3.png)
