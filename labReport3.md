@@ -62,15 +62,12 @@ less with option -f : which forcifily opens non-regular files
 
 ```
 less -f technical/
-```
-which returns
-```
+
 read error (press RETURN)
 ```
 ```
 less -f government/
-```
-```
+
 read error (press RETURN)
 ```
 not a good respresentation given this file, but might be good for understand files of different formats that are not commonly accessable such as .exe. 
