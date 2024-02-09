@@ -109,5 +109,40 @@ dCAM-1 is
         expressed on the surface of lymphoid endothelial 
 4%
 ```
+useful or reading through long documents since you know how far in you are 
 
+less with option -X: Disable clearing the screen after quitting less.
 
+```
+less -X 1471-230X-1-5.txt
+```
+After pressing q
+```
+230X-1-5.txt 
+
+  
+    
+      
+        Background & Aims
+        MAdCAM-1 is a 60 kD endothelial cell adhesion mol
+ecule
+        expressed on the surface of high endothelial venu
+les in the
+        gut, and in Peyers patches. MAdCAM-1 is expressed
+ basally
+        in these tissues and is dramatically increased in
+        inflammatory bowel disease (IBD). In IBD, especia
+lly
+        Crohn's disease, MAdCAM-1 acts as the main ligand
+ for
+        a4b7-expressing lymphocytes and recruits these ly
+mphocytes
+        into the intestine where they initiate and sustai
+n chronic
+        inflammation. Several animal models and human stu
+dies
+        support an absolute requirement for both MAdCAM-1
+ and a4b7
+        in the production of immune models of colitis. MA
+[user@sahara ~/docsearch/technical/biomed]$ ^C
+```
