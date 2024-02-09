@@ -17,6 +17,7 @@ inputs
 * There was a problem with ssh and rsa key interaction when login into the ucsd computer, not able to complete, was told that it will be addressed later.
 ![Image](ss4.png)
 ![Image](ss5.png)
+![image](https://github.com/sji005/cse15l-lab-reports/assets/148498146/486ccc35-6e9f-4263-a923-931d13b7e095)
 
 ## Part 3
 * I thought how setting up a webserver in java was interesting, since I have only been exposed to webdev in java script before.
