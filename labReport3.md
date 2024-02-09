@@ -1,6 +1,6 @@
-#Lab Report 3
+# Lab Report 3
 
-##Bugs 
+## Bugs 
 failure inducing input
 ```
     @Test
@@ -54,4 +54,60 @@ fixed
   }
 ```
 
-## 
+## Less
+
+credits: https://phoenixnap.com/kb/less-command-in-linux
+
+less with option -f : which forcifily opens non-regular files
+
+```
+less -f technical/
+```
+which returns
+```
+read error (press RETURN)
+```
+```
+less -f government/
+```
+```
+read error (press RETURN)
+```
+not a good respresentation given this file, but might be good for understand files of different formats that are not commonly accessable such as .exe. 
+
+less with option -m: Instructs less to prompt verbosely (similar to more), showing the percentage into the file. By default, less prompts with a colon.
+
+```
+less -m pmed.0020024.txt
+```
+![image](scrShot2.png)
+
+```
+less -m 1471-230X-1-5.txt      
+        Background & Aims
+        MAdCAM-1 is a 60 kD endothelial cell adhesion mol
+ecule
+        expressed on the surface of high endothelial venu
+les in the
+        gut, and in Peyers patches. MAdCAM-1 is expressed
+ basally
+        in these tissues and is dramatically increased in
+        inflammatory bowel disease (IBD). In IBD, especia
+lly
+        Crohn's disease, MAdCAM-1 acts as the main ligand
+ for
+        a4b7-expressing lymphocytes and recruits these ly
+mphocytes
+        into the intestine where they initiate and sustai
+n chronic
+        inflammation. Several animal models and human stu
+dies
+        support an absolute requirement for both MAdCAM-1
+ and a4b7
+        in the production of immune models of colitis. MA
+dCAM-1 is
+        expressed on the surface of lymphoid endothelial 
+4%
+```
+
+
