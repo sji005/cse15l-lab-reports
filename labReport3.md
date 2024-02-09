@@ -1,6 +1,6 @@
 #Lab Report 3
 
-**Bugs 
+##Bugs 
 failure inducing input
 ```
     @Test
@@ -13,7 +13,7 @@ failure inducing input
         assertEquals("Mother", input1.get(0));
         input1.add("Haha");
         input1 = ListExamples.filter(input1, sc);
-        assertEquals("Mother", input1.get(0));
+        assertEquals("Mother", input1.get(0)); \\this is the line that created the failure
         assertEquals("Haha", input1.get(1));
     }
 ```
