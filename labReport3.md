@@ -27,7 +27,7 @@ no failure
 ```
     
 symptom
-![image](scrShot1.jpg)
+![image](scrShot1.png)
 
 the bug is that it is adding the list at the beginning, causing the order to be reversed.
 ```
