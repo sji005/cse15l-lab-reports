@@ -3,8 +3,8 @@
 ## Part 1
 * The main method for the ```ChatServer``` class and ```handleRequests``` for the URL handler
 * the main method takes in an ```String[] args``` during compile, and ```handleRequests``` 
-takes in the current URL handler. 
-* args from the main function never change, and the url changes based on user
+takes in the current ```URLhandler```. 
+* ```args``` from the main function never change, and the ```url``` changes based on user
 * the field I have for this class is ```ArrayList<String> printable``` that stores all the messages
 inputs
 * 
