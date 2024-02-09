@@ -17,3 +17,5 @@ failure inducing input
         assertEquals("Haha", input1.get(1)); //this line returned no errors
     }
 ```
+symptom
+![image](scrShot1.jpg)
