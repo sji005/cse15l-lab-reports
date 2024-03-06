@@ -13,13 +13,13 @@
 ![screen](s4.png)
 ### Step 7 Editing the code to fix the bug
 - `vim ListExamples.java` then `<enter>` vims into ListExamples
-- `44G, dw, I, index2 , esc, :wq` `44G` goes to the 44th line which was the line we need to change, `dw` deletes the word index1, `i` goes into insert mode, `index2` modifies it to the correct one, `esc` goes into normal mode, `:wq` saves and quits `vim`
+- `44G, dw, I, index2 , esc, :wq` then `<enter>` `44G` goes to the 44th line which was the line we need to change, `dw` deletes the word index1, `i` goes into insert mode, `index2` modifies it to the correct one, `esc` goes into normal mode, `:wq` saves and quits `vim`
 ![screen](s5.png)
 ### Step 8 Running the tests
-- `up arrow, up arrow` goes to the 2nd most recent command which runs the `test.sh` file, this time it should return with no errors
+- `up arrow, up arrow <enter>` goes to the 2nd most recent command which runs the `test.sh` file, this time it should return with no errors
 ![screen](s6.png)
 ### Step 9 pushing the files back to github 
-- `git add ListExamples.java` puts the `ListExamples.java` into the list of files waiting to be commited
-- `git commit -m sdkjfslk` commits the file with a random message
-- `git push` push the file into the github git repository
+- `git add ListExamples.java <enter>` puts the `ListExamples.java` into the list of files waiting to be commited
+- `git commit -m sdkjfslk <enter>` commits the file with a random message
+- `git push <enter>` push the file into the github git repository
 ![screen](s7.png)
