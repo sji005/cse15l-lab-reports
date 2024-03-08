@@ -199,3 +199,6 @@ class ListExamples {
 }
 ```
 
+# Part2: Reflection
+I think for me I thought jdb is really cool. Because before no way has ever taught me how to use it. And from the labs and the lab demo, I understand how powerful of a tool it is. Since you are able to set breakpoints and know exactly what values each reference and object have at a certain line or loop or method. I want to try to encorporate that into my future and classes to make my debugging more effient. 
+
