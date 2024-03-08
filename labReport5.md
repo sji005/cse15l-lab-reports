@@ -5,7 +5,7 @@
 [siji@ieng6-201]:lab7:340$ ls
 ListExamples.class  ListExamples.java  ListExamplesTests.class  ListExamplesTests.java  StringChecker.class  lib  test.sh
 ` 
-
+```
 [siji@ieng6-201]:lab7:328$ bash test.sh
 JUnit version 4.13.2
 ..E
@@ -83,9 +83,9 @@ class ListExamples {
 
 
 }
-`
+```
 ListExamplesTest
-`
+```
 [siji@ieng6-201]:lab7:331$ cat ListExamplesTests.java
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -110,7 +110,7 @@ public class ListExamplesTests {
 
 }
 [siji@ieng6-201]:lab7:332$
-`
+```
 - TA: Thanks for providing such a detailed post. We can definitely help you with your bug. This is a really weird interaction! It says that there are something wrong with the string length, why don't you try putting less elements in your l1 or l2 list in the merge2 test and run it again.
 - Student: Ok, I did this and it gave a different error
 `
@@ -121,7 +121,7 @@ public class ListExamplesTests {
                 assertArrayEquals(new String[]{ "a","c", "c", "d", "e" }, ListExamples.merge(l1, l2).toArray());
         }
 `
-`
+```
 [siji@ieng6-201]:lab7:334$ bash test.sh
 JUnit version 4.13.2
 ..E
@@ -198,7 +198,7 @@ class ListExamples {
   }
 
 }
-`
+```
 
 # Part2: Reflection
 I think for me I thought jdb is really cool. Because before no way has ever taught me how to use it. And from the labs and the lab demo, I understand how powerful of a tool it is. Since you are able to set breakpoints and know exactly what values each reference and object have at a certain line or loop or method. I want to try to encorporate that into my future and classes to make my debugging more effient. 
