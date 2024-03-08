@@ -1,11 +1,11 @@
 # Debugging scenario
 ## Original Post
 - Student: Help! I was working on my ListExamples and I encountered this error. I was running it with the given tester, I can't find out what is going wrong, Pls Help! Attached below is also my ListExamples and the tester(FYI: the test.sh is just the typical JUnit set up call). Also if it helps i also provided the file structure.
-```
+`
 [siji@ieng6-201]:lab7:340$ ls
 ListExamples.class  ListExamples.java  ListExamplesTests.class  ListExamplesTests.java  StringChecker.class  lib  test.sh
-```
-```
+` 
+
 [siji@ieng6-201]:lab7:328$ bash test.sh
 JUnit version 4.13.2
 ..E
@@ -29,9 +29,10 @@ Caused by: org.junit.ComparisonFailure: expected:<[c]> but was:<[x]>
 
 FAILURES!!!
 Tests run: 2,  Failures: 1
-``` 
+
 This is my ListExamples, all of these are down in the ieng6 btw
-```
+
+`
 [siji@ieng6-201]:lab7:330$ cat ListExamples.java
 import java.util.ArrayList;
 import java.util.List;
@@ -82,9 +83,9 @@ class ListExamples {
 
 
 }
-```
+`
 ListExamplesTest
-```
+`
 [siji@ieng6-201]:lab7:331$ cat ListExamplesTests.java
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -109,18 +110,18 @@ public class ListExamplesTests {
 
 }
 [siji@ieng6-201]:lab7:332$
-```
+`
 - TA: Thanks for providing such a detailed post. We can definitely help you with your bug. This is a really weird interaction! It says that there are something wrong with the string length, why don't you try putting less elements in your l1 or l2 list in the merge2 test and run it again.
 - Student: Ok, I did this and it gave a different error
-```
+`
 @Test(timeout = 500)
         public void testMerge2() {
                 List<String> l1 = new ArrayList<String>(Arrays.asList("a", "c"));
                 List<String> l2 = new ArrayList<String>(Arrays.asList("c","d","e"));
                 assertArrayEquals(new String[]{ "a","c", "c", "d", "e" }, ListExamples.merge(l1, l2).toArray());
         }
-```
-```
+`
+`
 [siji@ieng6-201]:lab7:334$ bash test.sh
 JUnit version 4.13.2
 ..E
@@ -144,10 +145,10 @@ Caused by: org.junit.ComparisonFailure: expected:<[c]> but was:<[x]>
 
 FAILURES!!!
 Tests run: 2,  Failures: 1
-```
+`
 - TA: Interesting... Wait I see what's going on. The merge2 test is being effected by merge2. Since combined they will have 9 elements in the list. Since your results is static. So try to just put the result back into the method.
 - Student: Oh. Ok it worked, I changed it again and it stopped giving the error. Thanks. 
-```
+`
 import java.util.ArrayList;
 import java.util.List;
 
@@ -197,7 +198,7 @@ class ListExamples {
   }
 
 }
-```
+`
 
 # Part2: Reflection
 I think for me I thought jdb is really cool. Because before no way has ever taught me how to use it. And from the labs and the lab demo, I understand how powerful of a tool it is. Since you are able to set breakpoints and know exactly what values each reference and object have at a certain line or loop or method. I want to try to encorporate that into my future and classes to make my debugging more effient. 
