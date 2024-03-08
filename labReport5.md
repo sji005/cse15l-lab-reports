@@ -29,10 +29,10 @@ Caused by: org.junit.ComparisonFailure: expected:<[c]> but was:<[x]>
 
 FAILURES!!!
 Tests run: 2,  Failures: 1
-
+```
 This is my ListExamples, all of these are down in the ieng6 btw
 
-`
+```
 [siji@ieng6-201]:lab7:330$ cat ListExamples.java
 import java.util.ArrayList;
 import java.util.List;
@@ -113,14 +113,14 @@ public class ListExamplesTests {
 ```
 - TA: Thanks for providing such a detailed post. We can definitely help you with your bug. This is a really weird interaction! It says that there are something wrong with the string length, why don't you try putting less elements in your l1 or l2 list in the merge2 test and run it again.
 - Student: Ok, I did this and it gave a different error
-`
+```
 @Test(timeout = 500)
         public void testMerge2() {
                 List<String> l1 = new ArrayList<String>(Arrays.asList("a", "c"));
                 List<String> l2 = new ArrayList<String>(Arrays.asList("c","d","e"));
                 assertArrayEquals(new String[]{ "a","c", "c", "d", "e" }, ListExamples.merge(l1, l2).toArray());
         }
-`
+```
 ```
 [siji@ieng6-201]:lab7:334$ bash test.sh
 JUnit version 4.13.2
@@ -145,10 +145,10 @@ Caused by: org.junit.ComparisonFailure: expected:<[c]> but was:<[x]>
 
 FAILURES!!!
 Tests run: 2,  Failures: 1
-`
+```
 - TA: Interesting... Wait I see what's going on. The merge2 test is being effected by merge2. Since combined they will have 9 elements in the list. Since your results is static. So try to just put the result back into the method.
 - Student: Oh. Ok it worked, I changed it again and it stopped giving the error. Thanks. 
-`
+```
 import java.util.ArrayList;
 import java.util.List;
 
