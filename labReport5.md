@@ -1,7 +1,8 @@
 # Debugging scenario
 ## Original Post
 - Student: Help! I was working on my ListExamples and I encountered this error. I was running it with the given tester, I can't find out what is going wrong, Pls Help! Attached below is also my ListExamples. (FYI: the test.sh is just the typical JUnit set up call)
-```[siji@ieng6-201]:lab7:328$ bash test.sh
+```
+[siji@ieng6-201]:lab7:328$ bash test.sh
 JUnit version 4.13.2
 ..E
 Time: 0.016
