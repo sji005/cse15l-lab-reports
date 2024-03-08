@@ -5,6 +5,7 @@
 [siji@ieng6-201]:lab7:340$ ls
 ListExamples.class  ListExamples.java  ListExamplesTests.class  ListExamplesTests.java  StringChecker.class  lib  test.sh
 ```
+This is the error code
 ```Code
 [siji@ieng6-201]:lab7:328$ bash test.sh
 JUnit version 4.13.2
