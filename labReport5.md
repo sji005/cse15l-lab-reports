@@ -5,7 +5,7 @@
 [siji@ieng6-201]:lab7:340$ ls
 ListExamples.class  ListExamples.java  ListExamplesTests.class  ListExamplesTests.java  StringChecker.class  lib  test.sh
 ```
-This is the error code
+This is the error code ```  ```
 ```Code
 [siji@ieng6-201]:lab7:328$ bash test.sh
 JUnit version 4.13.2
@@ -31,6 +31,7 @@ Caused by: org.junit.ComparisonFailure: expected:<[c]> but was:<[x]>
 FAILURES!!!
 Tests run: 2,  Failures: 1
 ```
+
 This is my ListExamples, all of these are down in the ieng6 btw
 
 ```Code
