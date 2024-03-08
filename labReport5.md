@@ -1,11 +1,14 @@
 # Debugging scenario
 ## Original Post
 - Student: Help! I was working on my ListExamples and I encountered this error. I was running it with the given tester, I can't find out what is going wrong, Pls Help! Attached below is also my ListExamples and the tester(FYI: the test.sh is just the typical JUnit set up call). Also if it helps i also provided the file structure.
+
 ```Code
 [siji@ieng6-201]:lab7:340$ ls
 ListExamples.class  ListExamples.java  ListExamplesTests.class  ListExamplesTests.java  StringChecker.class  lib  test.sh
 ```
+
 This is the error code ```  ```
+
 ```Code
 [siji@ieng6-201]:lab7:328$ bash test.sh
 JUnit version 4.13.2
