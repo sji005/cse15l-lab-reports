@@ -1,6 +1,6 @@
 # Debugging scenario
 ## Original Post
-- Student: Help! I was working on my ListExamples and I encountered this error. I was running it with the given tester, I can't find out what is going wrong, Pls Help! Attached below is also my ListExamples and the tester(FYI: the test.sh is just the typical JUnit set up call). Also if it helps i also provided the file structure.
+- Student: Help! I was working on my ListExamples and I encountered this error. I was running it with the given tester, I can't find out what is going wrong, Pls Help! Attached below is also my ListExamples and the tester(FYI: the test.sh is just the typical JUnit set up call). Also if it helps i also provided the file structure. My first guess is that something wrong is with the for loop that checks the strings, or maybe the string checker itself?
 
 ```Code
 [siji@ieng6-201]:lab7:340$ ls
@@ -156,8 +156,8 @@ FAILURES!!!
 Tests run: 2,  Failures: 1
 ```
 
-- TA: Interesting... Wait I see what's going on. The merge2 test is being effected by merge1 also. Since combined they will have 9 elements in the list. Since your results is static. So try to just put the result back into the method.
-- Student: Oh. Ok it worked, I changed it again and it stopped giving the error. Thanks.
+- TA: Interesting... Wait I see what's going on. Its not the for loop or the string checker. The merge2 test is being effected by merge1 also. Since combined they will have 9 elements in the list. Since your results is static. So try to just put the result back into the method.
+- Student: Oh. Ok it worked, I changed it again and it stopped giving the error. Thanks. I thought that if I put the results as static, I will be able to do some cool methods in the future, did not anticipate this to happen, will now make is so that result is created and instantiated in the method rather as a field.
 
 ```Code
 import java.util.ArrayList;
@@ -212,5 +212,5 @@ class ListExamples {
 ```
 
 # Part2: Reflection
-I think for me I thought jdb is really cool. Because before no way has ever taught me how to use it. And from the labs and the lab demo, I understand how powerful of a tool it is. Since you are able to set breakpoints and know exactly what values each reference and object have at a certain line or loop or method. I want to try to encorporate that into my future and classes to make my debugging more effient. 
+I think for me I thought jdb is really cool. Because before no one has ever taught me how to use it. And from the labs and the lab demo, I understand how powerful of a tool it is. Since you are able to set breakpoints and know exactly what values each reference and object have at a certain line or loop or method. I want to try to encorporate that into my future and classes to make my debugging more effient. 
 
