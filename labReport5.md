@@ -35,7 +35,7 @@ FAILURES!!!
 Tests run: 2,  Failures: 1
 ```
 
-This is my ListExamples, all of these are down in the ieng6 btw
+- Student: This is my ListExamples, all of these are down in the ieng6 btw
 
 ```Code
 [siji@ieng6-201]:lab7:330$ cat ListExamples.java
@@ -156,7 +156,7 @@ FAILURES!!!
 Tests run: 2,  Failures: 1
 ```
 
-- TA: Interesting... Wait I see what's going on. The merge2 test is being effected by merge2. Since combined they will have 9 elements in the list. Since your results is static. So try to just put the result back into the method.
+- TA: Interesting... Wait I see what's going on. The merge2 test is being effected by merge1 also. Since combined they will have 9 elements in the list. Since your results is static. So try to just put the result back into the method.
 - Student: Oh. Ok it worked, I changed it again and it stopped giving the error. Thanks.
 
 ```Code
